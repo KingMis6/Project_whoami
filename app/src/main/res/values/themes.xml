@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.WhoAmI" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/lavender_ink</item>
+        <item name="colorPrimaryVariant">@color/lavender_ink</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/mint_deep</item>
+        <item name="colorSecondaryVariant">@color/mint_deep</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorError">@color/error_soft</item>
+
+        <item name="android:windowBackground">@color/bg_cream</item>
+        <item name="android:statusBarColor">@color/bg_cream</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+
+        <item name="materialButtonStyle">@style/Widget.WhoAmI.Button</item>
+        <item name="textInputStyle">@style/Widget.WhoAmI.TextInput</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.WhoAmI.Dialog</item>
+    </style>
+
+    <!-- Buttons: flat, rounded, soft pastel fills with dark plum text -->
+    <style name="Widget.WhoAmI.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/btn_bg_lavender</item>
+        <item name="android:textColor">@color/btn_text</item>
+        <item name="cornerRadius">18dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="rippleColor">@color/white_60</item>
+    </style>
+
+    <style name="Widget.WhoAmI.Button.Mint" parent="Widget.WhoAmI.Button">
+        <item name="backgroundTint">@color/btn_bg_mint</item>
+    </style>
+
+    <style name="Widget.WhoAmI.Button.White" parent="Widget.WhoAmI.Button">
+        <item name="backgroundTint">@color/btn_bg_white</item>
+    </style>
+
+    <style name="Widget.WhoAmI.Button.Text" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">15sp</item>
+        <item name="rippleColor">@color/lavender</item>
+    </style>
+
+    <!-- Text fields: white, rounded, soft lavender outline that firms up on focus -->
+    <style name="Widget.WhoAmI.TextInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="boxStrokeColor">@color/box_stroke_color</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+        <item name="hintTextColor">@color/lavender_ink</item>
+    </style>
+
+    <!-- Dialogs: cream, rounded -->
+    <style name="ThemeOverlay.WhoAmI.Dialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorSurface">@color/bg_cream</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.WhoAmI.Dialog</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.WhoAmI.Dialog" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.WhoAmI.Image" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+</resources>

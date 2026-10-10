@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Neutrals: warm cream background, soft plum text (never pure black/white glare) -->
+    <color name="white">#FFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="bg_cream">#FFF9F4</color>
+    <color name="border_soft">#EFE6F6</color>
+    <color name="text_primary">#4B4560</color>
+    <color name="text_secondary">#7A7490</color>
+    <color name="error_soft">#C4546A</color>
+    <color name="disabled_bg">#ECE8F0</color>
+    <color name="disabled_text">#A9A3B8</color>
+    <color name="stroke_idle">#D9CFEF</color>
+
+    <!-- Accents -->
+    <color name="lavender">#D4C8F7</color>
+    <color name="lavender_ink">#6E5BB5</color>
+    <color name="mint">#C3EBDC</color>
+    <color name="mint_deep">#4E9C82</color>
+    <color name="butter">#FFF1BF</color>
+    <color name="butter_note">#FFF6D6</color>
+
+    <!-- One pastel per player (assigned by join order) -->
+    <color name="player_pink">#FFD3E4</color>
+    <color name="player_sky">#CBE5FA</color>
+    <color name="player_mint">#C3EBDC</color>
+    <color name="player_peach">#FFDCCB</color>
+    <color name="player_butter">#FFF1BF</color>
+    <color name="player_lilac">#E0D4FA</color>
+</resources>

@@ -1,0 +1,42 @@
+# Built application outputs & generated files
+*.apk
+*.aar
+*.ap_
+*.aab
+*.dex
+*.class
+bin/
+gen/
+out/
+build/
+app/build/
+.gradle/
+captures/
+.externalNativeBuild
+.cxx/
+
+# Local machine configuration
+local.properties
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sensitive Firebase configuration (API keys & Project credentials)
+app/google-services.json
+google-services.json
+
+# Keystores & signing keys
+*.jks
+*.keystore
+*.pepk
+*.p12
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
